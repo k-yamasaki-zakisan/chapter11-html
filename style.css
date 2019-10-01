@@ -1,0 +1,702 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.headline {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.headline-content {
+    width: 1024px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.top-logo {
+	height: 70px;
+}
+
+.nav-list {
+  margin: 0 auto;
+}
+
+.nav-list-item1 {
+  list-style: none;
+  display: inline-block;
+  float: left;
+}
+
+img{
+  height: 70px;
+}
+
+.nav-list-item2  {
+  list-style: none;
+  display: inline-block;
+  padding: 22px 30px;
+  float: right;
+  text-decoration: none;
+}
+
+.nav-list-item2 a  {
+   color: #FAFAFA;
+   font-size: 16px;
+}
+
+
+
+.mainvivual {
+  text-align: center;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  color: #FAFAFA;
+}
+
+.mainvivual-content1{
+	font-size: 64px;
+	padding-top: 200px;
+	list-style: none;
+}
+
+.mainvivual-content2{
+	font-size: 20px;
+	padding-top: 10px;
+    list-style: none;
+}
+
+#Portfolio{
+    background-color: #ECEFF1;
+}
+
+.Portfolio-content{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.Portfolio-text1{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    list-style: none;
+    padding-top: 90px;
+}
+
+hr{
+   padding-top:8px;
+   height: 3px;
+   width: 70px;
+   background-color: #EC715F;
+   margin: 0 auto;
+   border: none
+}
+
+.Portfolio-text2{
+	padding: 30px 0;
+	font-size: 16px;
+	color: #000000;
+	list-style: none;
+	text-align: center;
+	border: none
+}
+
+.Portfolio-clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.Portfolio-box1{
+    height: 250px;
+    width: 300px;
+    float: left;
+    background-image: url(img/sketch.jpg);
+    background-size: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ECEFF1;
+}
+
+.Portfolio-box2{
+    height: 250px;
+    width: 300px;
+    float: left;
+    background-image: url(img/websuku.png);
+    background-size: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-position: center;
+}
+
+.Portfolio-box3{
+    height: 250px;
+    width: 300px;
+    float: left;
+    background-image: url(img/write.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.Portfolio-box4{
+    height: 250px;
+    width: 300px;
+    float: left;
+    background-image: url(img/webcamp.png);
+    background-size: cover;
+    margin-right: 10px;
+    margin-bottom: 90px;
+    background-position: center;
+}
+
+.Portfolio-box5{
+    height: 250px;
+    width: 300px;
+    float: left;
+    background-image: url(img/talk.jpg);
+    background-size: cover;
+    margin-right: 10px;
+    margin-bottom: 90px;
+}
+
+.Portfolio-box6{
+    height: 250px;
+    width: 300px;
+    float: left;
+    background-image: url(img/webcamp-mother.png);
+    background-size: cover;
+    margin-bottom: 90px;
+    background-position: center;
+}
+
+#Feature{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.Feature-content{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.Feature-clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.Feature-text1{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 8px;
+    padding-top: 90px;
+}
+
+.Feature-text2{
+	padding: 30px 0;
+	font-size: 16px;
+	color: #000000;
+	list-style: none;
+	text-align: center;
+	border: none
+}
+
+.Feature-text3{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 8px;
+    padding-top: 90
+}
+
+.Feature-box1{
+    height: auto;
+    width: 320px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 90px;
+}
+
+.Feature-box2{
+    height: auto;
+    width: 320px;
+    float: left;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+#Profile{
+    background-color: #ECEFF1;
+}
+
+.Profile-content{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.Profile-text1{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    list-style: none;
+    padding-top: 90px;
+}
+
+.Profile-text2{
+	font-size: 16px;
+	color: #000000;
+	list-style: none;
+	text-align: center;
+	border: none
+	padding-top: 30px;
+}
+
+.Profile-clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  padding-bottom: 90px;
+}
+
+.Profile-group{
+  padding-top: 30px;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.Profile-group-left{
+  width: 512px;
+  float: left;
+}
+
+.man-face{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url(img/my-icon.jpg);
+}
+
+.Profile-group-right{
+  width: 511px;
+  float: left;
+}
+
+.Profile-right-title{
+  font-size: 20px;
+}
+
+.profile-right-content{
+  font-size: 16px;
+  color: #000000;
+  padding-top: 5px;
+}
+
+.Profile-skill{
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.Profike-skill-content{
+  font-size: 16px;
+  color: #000000;
+  padding-top: 5px;
+}
+
+#Contact{
+    background-color: ;
+}
+
+.Contact-content{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Contact-text1{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    list-style: none;
+    margin-top: 90px;
+}
+
+.Contact-text2{
+  font-size: 16px;
+  color: #000000;
+  list-style: none;
+  text-align: center;
+  border: none;
+  margin: 30px 0;
+}
+
+.Contact-group{
+  padding-bottom: 200px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.Contact-group-left{
+  width: 400px;
+  float: left;
+}
+
+.Contact-left-content{
+  width: 130px;
+  margin: 0 auto;
+
+}
+
+.Contact-left-text1{
+  font-size: 20px;
+  padding: 5px;
+}
+
+.Contact-left-text2{
+  font-size: 20px;
+  padding: 5px;
+}
+
+.Contact-group-right{
+  width: 400px;
+  float: left;
+}
+
+.Contact-right-content{
+   width: 150px;
+  margin: 0 auto;
+}
+
+.Contact-right-text1{
+  font-size: 20px;
+}
+
+.Footer{
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+}
+
+.Footer-text{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  padding: 22px 0;
+}
+
+/*画面幅の変更*/
+
+
+
+@media screen and (max-width:765px) {
+
+html{
+   width: 100%;
+   margin :0 auto;
+  }
+
+.headline {
+  width: 100%;
+  height: 50px;
+}
+
+.headline-content {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+img{
+  height: 50px;
+}
+
+.nav-list-item2{
+  display: none;
+}
+
+.menu-box{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-right: 5%;
+  border: 1px solid #FAFAFA;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.list-bar:first-child {
+    margin-top: 10px;
+}
+
+.list-bar{
+  margin-top: 10px;
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px auto;
+  background-color: #FAFAFA;
+}
+
+.mainvivual {
+  text-align: center;
+  background-image: url(img/code.png);
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  color: #FAFAFA;
+}
+
+.mainvivual-content1{
+  font-size: 40px;
+  padding-top: 200px;
+  list-style: none;
+}
+
+.mainvivual-content2{
+  font-size: 18px;
+  padding-top: 10px;
+    list-style: none;
+}
+
+#Portfolio{
+    background-color: #ECEFF1;
+    width: 100%;
+    padding: 0;
+}
+
+.Portfolio-content{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Portfolio-clearfix {
+  content: "";
+  display: block;
+  clear: both;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.Portfolio-box1{
+    display: none;
+}
+
+.Portfolio-box2{
+    height: 250px;
+    width: 300px;
+    float: center;
+    background-image: url(img/websuku.png);
+    background-size: cover;
+    margin :0 auto 10px auto;
+    background-position: center;
+}
+
+.Portfolio-box3{
+    display: none;
+}
+
+.Portfolio-box4{
+    height: 250px;
+    width: 300px;
+    float: center;
+    background-image: url(img/webcamp.png);
+    background-size: cover;
+    background-position: center;
+    margin :0 auto 10px auto;
+}
+
+.Portfolio-box5{
+    display: none;
+}
+
+.Portfolio-box6{
+    height: 250px;
+    width: 300px;
+    float: center;
+    background-image: url(img/webcamp-mother.png);
+    background-size: cover;
+    margin :0 auto 10px auto;
+    background-position: center;
+}
+
+#Feature{
+    width: 100%;
+    padding: 0 5%;
+}
+
+.Feature-content{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Feature-clearfix{
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 30px;
+
+}
+
+.Feature-text1{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 8px;
+    padding-top: 90px;
+}
+
+.Feature-text3{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Feature-box1{
+    height: auto;
+    width: 320px;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#Profile{
+    padding: 0 5%;
+    background-color: #ECEFF1;
+}
+
+.Profile-content{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.Profile-text1{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    list-style: none;
+    padding-top: 90px;
+}
+
+.Profile-text2{
+  font-size: 16px;
+  color: #000000;
+  list-style: none;
+  text-align: center;
+  border: none
+  padding-top: 30px;
+}
+
+.Profile-group{
+  padding-top: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.Profile-clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  padding-bottom: 90px;
+  margin: 0 auto;
+  position: center;
+}
+
+.Profile-group-right{
+  margin: 0 auto;
+  float: center;
+  text-align: center;
+}
+
+.Profile-group-title{
+font-size: 20px;
+color: #000000;
+padding: 20px 0 5px 0;
+}
+
+.Profile-group-left{
+  float: none;
+  width: 100%;
+}
+
+.Profile-group-right{
+  float: none;
+  width: 100%;
+}
+
+#Contact{
+    padding: 0 5%;
+}
+
+.Contact-content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Contact-group{
+  padding-bottom: 90px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Contact-group-left{
+  width: 100%;
+  float: none;
+}
+
+.Contact-group-right{
+  width: 100%;
+  float: none;
+}
+
+.Contact-left-content{
+  text-align: center;
+  width: 130px;
+  margin: 0 auto;
+}
+
+.Contact-right-content{
+  text-align: center;
+   width: 150px;
+   margin: 0 auto;
+}
+
+.Contact-left-text2{
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+
+.Contact-right-text1{
+  font-size: 20px;
+  padding: 20px 0 5px 0;
+}
+
+}
+
+
+
+
